@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #060606;
+}
+
+.tittle {
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: coral;
+}
+
+.container {
+  border: 3px solid white;
+  width: 22rem;
+
+  padding: 5px;
+}
+
+.car-img-container {
+  background-color: whitesmoke;
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.car-img-container img {
+  width: 15rem;
+}
+
+.star {
+  color: yellow;
+
+  margin-left: 20px;
+}

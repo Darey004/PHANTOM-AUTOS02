@@ -5,7 +5,7 @@ font-family: bodoni moda,serif;
 }
 
 body{
-    background-color: #090909;
+    background-color: #000000;
 }
 
 header{
@@ -178,8 +178,9 @@ height: 500px;
 .container{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 6px;
     flex-wrap: wrap;
+    flex-direction: row;
 
 } 
 .video video{

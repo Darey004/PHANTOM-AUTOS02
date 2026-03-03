@@ -17,20 +17,27 @@ body {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: coral;
+  /* color: rgb(148, 0, 0); */
+  color: rgb(253, 17, 17);
+}
+
+.car-menu {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container {
-  border: 3px solid white;
-  width: 22rem;
+  border: 3px solid #060606;
+  width: 20rem;
+  margin: 5px;
 
-  padding: 5px;
+  padding: 15px;
 }
 
 .car-img-container {
   background-color: whitesmoke;
-  width: 90%;
-  margin: 20px;
+  width: 100%;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,10 +46,161 @@ body {
 
 .car-img-container img {
   width: 15rem;
+  height: 15rem;
+}
+
+.container h2 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: rgb(253, 17, 17);
+  padding: 10px 0;
 }
 
 .star {
   color: yellow;
-
-  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
 }
+.car-info {
+  width: 100%;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.car-info i {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.icons h4 {
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  color: rgb(250, 238, 238);
+}
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+
+.price-tag h3 {
+  color: rgb(250, 238, 238);
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.price-tag button {
+  font-size: 20px;
+  background-color: rgb(253, 17, 17);
+  padding: 5px;
+  text-transform: capitalize;
+  color: rgb(250, 238, 238);
+  border-radius: 25px;
+  outline: none;
+}
+
+.form {
+  color: white;
+}
+
+.form .sub-head1 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 30px;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.sub-head1 h1 {
+  font-size: 45px;
+}
+
+.sub-head1 p {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.contain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 80%;
+
+  margin: 20px;
+  gap: 30px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  /* position: relative;
+  bottom: 82px; */
+}
+
+.text-form {
+  text-transform: capitalize;
+  margin: 5px;
+  padding: 5px;
+}
+
+.text-form h1 {
+  font-size: 45px;
+}
+
+.text-form p {
+  font-size: 30px;
+}
+
+.form label {
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.form input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(109, 112, 109);
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 240px;
+}
+
+.form-bt {
+  padding: 10px;
+  margin-top: 20px;
+  width: 100px;
+  position: relative;
+  left: 140px;
+  background-color: rgb(253, 17, 17);
+  color: white;
+  text-transform: capitalize;
+  outline: none;
+}
+
+button:hover{
+transition: 0.5s ease-in-out;
+transform: translateY(2px);
+background-color: rgb(233, 4, 62);
+cursor: pointer;
+}
+
